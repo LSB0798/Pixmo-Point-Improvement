@@ -1,0 +1,42 @@
+{
+    "blink_val": {
+      "SOTA": { "accuracy": 83.95 },
+      "iter0000000": { "accuracy": 84.27 }
+    },
+    "robovqa": {
+      "SOTA": { "BLEU-avg": 62.7 },
+      "iter0000000": { "BLEU-avg": 47.73 }
+    },
+    "cv_bench_test": {
+      "SOTA": { "accuracy": 85.75 },
+      "iter0000000": { "accuracy": 85.63 }
+    },
+    "egoplan2": {
+      "SOTA": { "accuracy": 57.23 },
+      "iter0000000": { "accuracy": 40.65 }
+    },
+    "embspatial_bench": {
+      "SOTA": { "accuracy": 78.57 },
+      "iter0000000": { "accuracy": 78.19 }
+    },
+    "refspatial_bench": {
+      "SOTA": { "avg": 54.00 },
+      "iter0000000": { "avg": 29.96 }
+    },
+    "robo_spatial_home_all": {
+      "SOTA": { "accuracy": 72.43 },
+      "iter0000000": { "accuracy": 53.47 }
+    },
+    "sat": {
+      "SOTA": { "accuracy": 86.67 },
+      "iter0000000": { "accuracy": 63.33 }
+    },
+    "vsi_bench_tiny": {
+      "SOTA": { "accuracy": 42.69 },
+      "iter0000000": { "accuracy": 58.72 }
+    },
+    "where2place": {
+      "SOTA": { "avg": 73.59 },
+      "iter0000000": { "avg": 39.64 }
+    }
+  }

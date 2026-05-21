@@ -1,0 +1,24 @@
+config = dict(
+    dataset_path="/code1/data/OneThinker-eval",
+    split="",
+    processed_dataset_path="/code1/data/OneThinker-eval",
+    processor="process.py",
+)
+
+post_prompt = """"""
+
+dataset = dict(
+    type="VqaBaseDataset",
+    prompt_template=dict(
+        type="PromptTemplate",
+        post_prompt=post_prompt,
+    ),
+    config=config,
+    anno_file="eval_refcocog_test_flagevalmm.json",
+    name="refcoco_g_test",
+)
+
+evaluator = dict(
+    type="BaseEvaluator",
+    eval_func="evaluate_qwen3vl.py",
+)
